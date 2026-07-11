@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot name="quadruped" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find quadruped_description)/urdf/quadruped_macro.urdf.xacro"/>
+
+  <xacro:quadruped prefix=""/>
+</robot>

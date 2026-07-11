@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<robot name="quadruped" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="${prefix}fr_i_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="fr_i_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="fr_i_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}fr_o_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="fr_o_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="fr_o_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}fr_knee_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="fr_knee">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="fr_knee_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}fl_i_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="fl_i_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="fl_i_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}fl_o_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="fl_o_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="fl_o_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}fl_knee_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="fl_knee">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="fl_knee_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}rr_i_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rr_i_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rr_i_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}rr_o_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rr_o_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rr_o_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}rr_knee_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rr_knee">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rr_knee_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}rl_i_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rl_i_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rl_i_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}rl_o_hip_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rl_o_hip">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rl_o_hip_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="${prefix}rl_knee_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rl_knee">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rl_knee_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>
